@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MOTIVATE ME</string>
+    <string name="contentDescription">a simple message icon</string>
+    <string name="placeholder_message">Say Hello!!</string>
+    <string name="hint_text">Heyy!! Enter your name</string>
+    <string name="button_text">Click Me!!</string>
+    <string name="ContentDescription">Pillu</string>
+    <string name="content_Description">star</string>
+    <string name="content_description">pilauat</string>
+    <string name="contentdescription">checkbox</string>
+</resources>

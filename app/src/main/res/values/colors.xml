@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="MediumPurple">#9785FF</color>
+    <color name="MediumStaleBlue">#745CFF</color>
+    <color name="LightViolet">#BDB2FF</color>
+    <color name="Mauve">#885567</color>
+    <color name="SilverPink">#C2A9B1</color>
+    <color name="SteelPink">#CC00CC</color>
+</resources>

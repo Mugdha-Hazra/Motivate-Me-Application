@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pexels"
+    android:contentDescription="@string/content_Description"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/activity_main_iv_comment"
+        android:layout_width="209dp"
+        android:layout_height="131dp"
+        android:contentDescription="@string/contentDescription"
+        android:soundEffectsEnabled="true"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/main_activity_tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:fontFamily="cursive"
+        android:shadowColor="#D776E8"
+        android:singleLine="false"
+        android:soundEffectsEnabled="true"
+        android:text="@string/placeholder_message"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/activity_main_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_text"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_main_bt_update"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/MediumStaleBlue"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/button_text"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/ContentDescription"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/contentdescription"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/content_description"
+            app:srcCompat="@drawable/comment_icon_foreground" />
+
+    </LinearLayout>
+
+</LinearLayout>
